@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html class="k-webkit k-webkit40">
+<head>
+    <meta charset="utf-8" />
+    <base href="http://demos.telerik.com/kendo-ui/menu/images">
+    <style>html { font-size: 12px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <title></title>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.common.min.css" />
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.default.min.css" />
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.dataviz.min.css" />
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.dataviz.default.min.css" />
+
+    <script src="http://cdn.kendostatic.com/2014.3.1411/js/jquery.min.js"></script>
+    <script src="http://cdn.kendostatic.com/2014.3.1411/js/kendo.all.min.js"></script>
+
+    <script>
+
+        var menu_english = 
+            [
+                {
+                    text: "Home", imageUrl: "../content/shared/icons/sports/baseball.png"
+                },
+                {
+                    text: "Services", imageUrl: "../content/shared/icons/sports/golf.png",
+                    items: [
+                        { text: "Consulting", imageUrl: "../content/shared/icons/16/star.png",
+                          items: [
+                            { text: "IT Infrastructure Consulting", imageUrl: "../content/shared/icons/16/photo.png" },
+                            { text: "Enterprise Architect Consulting", imageUrl: "../content/shared/icons/16/photo.png" },
+                            { text: "Cloud Architect Consulting", imageUrl: "../content/shared/icons/16/photo.png" }
+                          ]
+                        },
+                        { text: "APP Development", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "Big Data Analysis", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "Bioinformatics and Bio/Medical Images", imageUrl: "../content/shared/icons/16/video.png" }
+                    ]
+                },
+                {
+                    text: "Solutions", imageUrl: "../content/shared/icons/sports/swimming.png",
+                    items: [
+                        { text: "Intelligent City Solutions", imageUrl: "../content/shared/icons/16/star.png" },
+                        { text: "Intelligent Transportation Solutions", imageUrl: "../content/shared/icons/16/photo.png" }
+                    ]
+                },
+                {
+                    text: "Successful Cases", imageUrl: "../content/shared/icons/sports/snowboarding.png",
+                    items: [
+                        { text: "Case 1", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "Case 2", imageUrl: "../content/shared/icons/16/video.png" }
+                    ]
+                },
+                {
+                    text: "About", imageUrl: "../content/shared/icons/sports/snowboarding.png",
+                    items: [
+                        { text: "Company Overview", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "Who We Are", imageUrl: "../content/shared/icons/16/video.png" },
+                        { text: "What We Believe", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "What We Do", imageUrl: "../content/shared/icons/16/video.png" },
+                        { text: "Contact Us", imageUrl: "../content/shared/icons/16/video.png" }
+                    ]
+                }
+            ];
+
+        var menu_chinese =
+            [
+                {
+                    text: "主页", imageUrl: "../content/shared/icons/sports/baseball.png"
+                },
+                {
+                    text: "服务", imageUrl: "../content/shared/icons/sports/golf.png",
+                    items: [
+                        { text: "咨询", imageUrl: "../content/shared/icons/16/star.png",
+                          items: [
+                            { text: "IT 战略咨询", imageUrl: "../content/shared/icons/16/photo.png" },
+                            { text: "企业架构咨询", imageUrl: "../content/shared/icons/16/photo.png" },
+                            { text: "云架构咨询", imageUrl: "../content/shared/icons/16/photo.png" }
+                          ]
+                        },
+                        { text: "APP定制与开发", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "大数据分析", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "生物信息与生物医学图像", imageUrl: "../content/shared/icons/16/video.png" }
+                    ]
+                },
+                {
+                    text: "解决方案", imageUrl: "../content/shared/icons/sports/swimming.png",
+                    items: [
+                        { text: "智慧城市解决方案", imageUrl: "../content/shared/icons/16/star.png" },
+                        { text: "智能交通解决方案", imageUrl: "../content/shared/icons/16/photo.png" }
+                    ]
+                },
+                {
+                    text: "案例", imageUrl: "../content/shared/icons/sports/snowboarding.png",
+                    items: [
+                        { text: "案例1", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "案例2", imageUrl: "../content/shared/icons/16/video.png" }
+                    ]
+                },
+                {
+                    text: "关于我们", imageUrl: "../content/shared/icons/sports/snowboarding.png",
+                    items: [
+                        { text: "公司简介", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "我们的团队", imageUrl: "../content/shared/icons/16/video.png" },
+                        { text: "公司理念", imageUrl: "../content/shared/icons/16/video.png" },
+                        { text: "业务简介", imageUrl: "../content/shared/icons/16/video.png" },
+                        { text: "联系我们", imageUrl: "../content/shared/icons/16/photo.png" }
+                    ]
+                }
+            ];
+
+        var menu_sprites = [{
+                    text: "Brazil", spriteCssClass: "brazilFlag", items: [
+                        { text: "History", spriteCssClass: "historyIcon" },
+                        { text: "Geography", spriteCssClass: "geographyIcon" },
+                    ]
+                },
+                {
+                    text: "India", spriteCssClass: "indiaFlag", items: [
+                        { text: "History", spriteCssClass: "historyIcon" },
+                        { text: "Geography", spriteCssClass: "geographyIcon" },
+                    ]
+                },
+                {
+                    text: "Netherlands", spriteCssClass: "netherlandsFlag", items: [
+                        { text: "History", spriteCssClass: "historyIcon" },
+                        { text: "Geography", spriteCssClass: "geographyIcon" },
+                    ]
+                }];
+
+        var menu_images =  [
+                {
+                    text: "Baseball", imageUrl: "../content/shared/icons/sports/baseball.png",
+                    items: [
+                        { text: "Top News", imageUrl: "../content/shared/icons/16/star.png" },
+                        { text: "Photo Galleries", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "Videos Records", imageUrl: "../content/shared/icons/16/video.png" },
+                        { text: "Radio Records", imageUrl: "../content/shared/icons/16/speaker.png" }
+                    ]
+                },
+                {
+                    text: "Golf", imageUrl: "../content/shared/icons/sports/golf.png",
+                    items: [
+                        { text: "Top News", imageUrl: "../content/shared/icons/16/star.png" },
+                        { text: "Photo Galleries", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "Videos Records", imageUrl: "../content/shared/icons/16/video.png" },
+                        { text: "Radio Records", imageUrl: "../content/shared/icons/16/speaker.png" }
+                    ]
+                },
+                {
+                    text: "Swimming", imageUrl: "../content/shared/icons/sports/swimming.png",
+                    items: [
+                        { text: "Top News", imageUrl: "../content/shared/icons/16/star.png" },
+                        { text: "Photo Galleries", imageUrl: "../content/shared/icons/16/photo.png" }
+                    ]
+                },
+                {
+                    text: "Snowboarding", imageUrl: "../content/shared/icons/sports/snowboarding.png",
+                    items: [
+                        { text: "Photo Galleries", imageUrl: "../content/shared/icons/16/photo.png" },
+                        { text: "Videos Records", imageUrl: "../content/shared/icons/16/video.png" }
+                    ]
+                }
+            ];
+
+        $(document).ready(function() {
+            $("#menu-images").kendoMenu({
+                dataSource: menu_chinese
+            });
+
+            $("#menu-sprites").kendoMenu({
+                dataSource: menu_sprites
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+    <div id="root">
+
+
+        <div class="demo-section k-header">
+
+            <h4>Menu with images</h4>
+
+            <ul id="menu-images"></ul>
+
+        </div>
+
+        <script>
+            $("#menu-images").kendoMenu({
+
+            });
+        </script>
+
+        <div class="demo-section k-header">
+
+            <h4>Menu with sprites</h4>
+
+            <div id="menu-sprites"></div>
+
+        </div>
+
+        <style scoped>
+
+            #menu-sprites .k-sprite {
+                background-image: url("../content/shared/styles/flags.png");
+            }
+            .brazilFlag {
+                background-position: 0 0;
+            }
+            .indiaFlag {
+                background-position: 0 -32px;
+            }
+            .netherlandsFlag {
+                background-position: 0 -64px;
+            }
+            .historyIcon {
+                background-position: 0 -96px;
+            }
+            .geographyIcon {
+                background-position: 0 -128px;
+            }
+        </style>
+    </div>
+</body>
+</html>
