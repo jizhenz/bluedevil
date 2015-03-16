@@ -1,0 +1,127 @@
+<html class="k-webkit k-webkit41"><head>
+    <meta charset="utf-8">
+    <!--base href="http://demos.telerik.com/kendo-ui/menu/images"-->
+    <!--style>html { font-size: 12px; font-family: Arial, Helvetica, sans-serif; }</style-->
+    <title>Blue Devil Software</title>
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.common.min.css">
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.default.min.css">
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.dataviz.min.css">
+    <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.dataviz.default.min.css">
+
+    <script src="http://cdn.kendostatic.com/2014.3.1411/js/jquery.min.js"></script>
+    <script src="http://cdn.kendostatic.com/2014.3.1411/js/kendo.all.min.js"></script>
+
+    <script src="js/menu/menu_ch.js"></script>
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function() {
+            $("#siteMenu").kendoMenu({
+                dataSource: prime.menu_chinese
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+    <div id="root">
+
+        <table id="main" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody><tr bgcolor="#757575">
+                <td id="mainLeft" width="5%"></td>
+                <td id="mainMiddle" width="90%">
+                    <div id="header" class="k-header">
+                        <table id="siteHeader" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody><tr>
+                                <td align="left" width="133" height="75">
+                                    <img src="img/logoBlueDevil.jpg">
+                                </td>
+                                <td height="75">
+                                    <ul id="siteMenu" height="75" data-role="menu" class="k-widget k-reset k-header k-menu k-menu-horizontal" tabindex="0" role="menubar">
+									    <li class="k-item k-state-default k-first" role="menuitem"><span class="k-link">主页</span></li>
+									    <li class="k-item k-state-default" role="menuitem" aria-haspopup="true" style="z-index: auto;"><span class="k-link">服务<span class="k-icon k-i-arrow-s"></span></span>
+									        <div class="k-animation-container" style="width: 221px; height: 129px; margin-left: -2px; padding-left: 2px; padding-right: 2px; padding-bottom: 4px; overflow: hidden; display: none; position: absolute; z-index: 10002; top: 77px; left: 0px;">
+									            <ul class="k-group k-menu-group k-popup k-reset" style="display: none; font-size: 16px; font-family: 'Times New Roman'; font-stretch: normal; font-style: normal; font-weight: normal; line-height: normal; position: absolute; -webkit-transform: translateY(-128px);" role="menu" data-role="popup" aria-hidden="true">
+									                <li class="k-item k-state-default k-first" role="menuitem" aria-haspopup="true" style="z-index: auto;"><span class="k-link">咨询<span class="k-icon k-i-arrow-e"></span></span>
+									                    <div class="k-animation-container" style="width: 141px; height: 96px; margin-left: -2px; padding-left: 2px; padding-right: 2px; padding-bottom: 4px; overflow: hidden; display: none; position: absolute; z-index: 10002; top: 0px; left: 219px;">
+									                        <ul class="k-group k-menu-group k-popup k-reset" style="display: none; max-height: 163px; overflow: auto; font-size: 16px; font-family: 'Times New Roman'; font-stretch: normal; font-style: normal; font-weight: normal; line-height: normal; position: absolute; -webkit-transform: translateX(-141px);" role="menu" data-role="popup" aria-hidden="true">
+									                            <li class="k-item k-state-default k-first" role="menuitem"><span class="k-link">IT 战略咨询</span></li>
+									                            <li class="k-item k-state-default" role="menuitem"><span class="k-link">企业架构咨询</span></li>
+									                            <li class="k-item k-state-default k-last" role="menuitem"><span class="k-link">云架构咨询</span></li>
+									                        </ul>
+									                    </div>
+									                </li>
+									                <li class="k-item k-state-default" role="menuitem"><span class="k-link">APP定制与开发</span></li>
+									                <li class="k-item k-state-default" role="menuitem"><span class="k-link">大数据分析</span></li>
+									                <li class="k-item k-state-default k-last" role="menuitem"><span class="k-link">生物信息与生物医学图像</span></li>
+									            </ul>
+									        </div>
+									    </li>
+									    <li class="k-item k-state-default" role="menuitem" aria-haspopup="true" style="z-index: auto;"><span class="k-link">解决方案<span class="k-icon k-i-arrow-s"></span></span>
+									        <div class="k-animation-container" style="width: 173px; height: 65px; margin-left: -2px; padding-left: 2px; padding-right: 2px; padding-bottom: 4px; overflow: hidden; display: none; position: absolute; z-index: 10002; top: 77px; left: 0px;">
+									            <ul class="k-group k-menu-group k-popup k-reset" style="display: none; max-height: 163px; overflow: auto; font-size: 16px; font-family: 'Times New Roman'; font-stretch: normal; font-style: normal; font-weight: normal; line-height: normal; position: absolute; -webkit-transform: translateY(-65px);" role="menu" data-role="popup" aria-hidden="true">
+									                <li class="k-item k-state-default k-first" role="menuitem"><span class="k-link">智慧城市解决方案</span></li>
+									                <li class="k-item k-state-default k-last" role="menuitem"><span class="k-link">智能交通解决方案</span></li>
+									            </ul>
+									        </div>
+									    </li>
+									    <li class="k-item k-state-default" role="menuitem" aria-haspopup="true"><span class="k-link">案例<span class="k-icon k-i-arrow-s"></span></span>
+									        <ul class="k-group k-menu-group" style="display:none" role="menu" aria-hidden="true">
+									            <li class="k-item k-state-default k-first" role="menuitem"><span class="k-link">案例1</span></li>
+									            <li class="k-item k-state-default k-last" role="menuitem"><span class="k-link">案例2</span></li>
+									        </ul>
+									    </li>
+									    <li class="k-item k-state-default k-last" role="menuitem" aria-haspopup="true" style="z-index: auto;"><span class="k-link">关于我们<span class="k-icon k-i-arrow-s"></span></span>
+									        <div class="k-animation-container" style="width: 125px; height: 160px; margin-left: -2px; padding-left: 2px; padding-right: 2px; padding-bottom: 4px; overflow: hidden; display: none; position: absolute; z-index: 10002; top: 77px; left: 0px; box-sizing: content-box;">
+									            <ul class="k-group k-menu-group k-popup k-reset" style="display: none; max-height: 163px; overflow: auto; font-size: 16px; font-family: 'Times New Roman'; font-stretch: normal; font-style: normal; font-weight: normal; line-height: normal; -webkit-transform: translateY(-160px); position: absolute;" role="menu" data-role="popup" aria-hidden="true">
+									                <li class="k-item k-state-default k-first" role="menuitem"><span class="k-link">公司简介</span></li>
+									                <li class="k-item k-state-default" role="menuitem"><span class="k-link">我们的团队</span></li>
+									                <li class="k-item k-state-default" role="menuitem"><span class="k-link">公司理念</span></li>
+									                <li class="k-item k-state-default" role="menuitem"><span class="k-link">业务简介</span></li>
+									                <li class="k-item k-state-default k-last" role="menuitem"><span class="k-link">联系我们</span></li>
+									            </ul>
+									        </div>
+									    </li>
+									</ul>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </td>
+                <td id="mainRight" width="5%"></td>
+            </tr>
+        </tbody></table>
+
+        <style scoped="">
+
+            .k-menu {
+                height: 100%;
+                width: 100%;
+                vertical-align: middle;
+            }
+
+            .k-item {
+                height: 100%;
+                vertical-align: middle;
+            }
+
+            .k-link {
+                height: 100%;
+                vertical-align: middle;
+            }
+
+            .k-menu:after {
+              content: '';
+              display: block;
+              width: 0%;
+              height: 0;
+              float: inherit;
+              overflow: hidden;
+            }
+        </style>
+    </div>
+
+
+</body></html>
