@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="k-webkit k-webkit40">
+<html>
 <head>
     <meta charset="utf-8" />
     <!--base href="http://demos.telerik.com/kendo-ui/menu/images"-->
-    <style>html { font-size: 12px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <!--style>html { font-size: 12px; font-family: Arial, Helvetica, sans-serif; }</style-->
     <title>Blue Devil Software</title>
     <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.common.min.css" />
     <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.default.min.css" />
@@ -13,17 +13,16 @@
     <script src="http://cdn.kendostatic.com/2014.3.1411/js/jquery.min.js"></script>
     <script src="http://cdn.kendostatic.com/2014.3.1411/js/kendo.all.min.js"></script>
 
-    <script src="js/logo/logo_ch.js"></script>
     <script src="js/menu/menu_ch.js"></script>
 
     <script type="text/javascript">
 
 
         $(document).ready(function() {
-            $("#siteLogo").kendoMenu({
-                dataSource: prime.logo_chinese
+            /*$("#siteLanguageMenu").kendoMenu({
+                dataSource: prime.menu_lang_chinese
             });
-
+            */
             $("#siteMenu").kendoMenu({
                 dataSource: prime.menu_chinese
             });
@@ -32,35 +31,227 @@
     </script>
 
 </head>
-<body>
+<body bgcolor="#5858FA">
     <div id="root">
-
         <table id="main" border="0" cellpadding="0" cellspacing="0" width="100%">
-            <tr bgcolor="#757575">
-                <td id="mainLeft" width="5%"></td>
-                <td id="mainMiddle" width="90%">
-                    <div id="header" class="k-header">
+            <tr>
+                <td id="mainLeft" width="5%" style="vertical-align:top;">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <img src="img/logoBlueDevil.jpg"/>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td id="mainMiddle" width="95%" style="vertical-align:top;">
+
+
                         <table id="siteHeader" border="0" cellpadding="0" cellspacing="0" width="100%">
-                            <tr>
-                                <td height="100%" align="left">
-                                    <ul id="siteLogo" height="100%" align="left"></ul>
+                           <!--<tr width="100%" >
+                                <td>
+                                    <ul id="siteLanguageMenu"></ul>
                                 </td>
-                                <td height="100%" align="right">
-                                    <ul id="siteMenu" height="100%" align="right"></ul>
+                                
+                                <td width="100%" height="100%">
+                                    <div id="bluedevil-mast-options" width="100%" height="100%">
+                                        <ul role="toolbar" aria-label="Masthead Navigation" width="100%" height="100%">
+                                            <li id="bluedevil-world-map" role="presentation" height="100%">
+                                                <img src="img/logoBlueDevil.jpg"/>
+                                            </li>
+                                            <li id="bluedevil-blank" role="presentation" width="100%" height="100%">
+                                                <p>                         </p>
+                                            </li>
+                                            <li id="bluedevil-world-map" role="presentation" height="100%">
+                                                <img src="img/country-icons-sprite.png"/>
+                                            </li>
+                                            <li id="bluedevil-geo" role="presentation" height="100%">
+                                                <a href="http://www.ibm.com/planetwide/select/selector.html" role="button" aria-label="Choose location United States currently selected" tabindex="0">United States</a>
+                                            </li>
+                                            <li id="bluedevil-welcome" role="presentation">
+                                                <p id="bluedevil-welcome-msg">欢迎浏览蓝魔软件</p>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </td>
+                                
+                            </tr>-->
+                            <tr>
+                                <td>
+                                    <div id="bluedevil-mast-options">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul id="siteMenu"></ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    
                                 </td>
                             </tr>
                         </table>
-                    </div>
                 </td>
-                <td id="mainRight" width="5%"></td>
+                <td id="mainRight" width="0%"></td>
             </tr>
         </table>
 
         <style scoped>
+/*
+            #bluedevil-masthead {
+              width: 100%;
+              min-width: 980px;
+              position: relative;
+              z-index: 900;
+              border-top: 0px solid #666;
+              border-bottom: 2px solid rgba(255,255,255,.8);
+            }
 
-            .k-link {
+            #bluedevil-mast-options {
+                background: linear-gradient(to bottom, #131623, #1A1C27);
+                height: 100%;
+                float: left;〈
+                width: 100%;
+                color: #A1A2A7;
+                font-size: .7em;
+            }
+
+            #bluedevil-mast-options ul {
+                background-color: #131623;
+                float: right;
+                margin-right: 5%;
+                border-left: 1px solid #2b2d39;
+                border-right: 1px solid #02050E;
+                border: 0px;
+                outline: 0px;
+                font-size: inherit;
+                vertical-align: baseline;
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
                 height: 100%;
             }
+
+            li {
+                display: list-item;
+                height: 100%;
+            }
+
+            #bluedevil-mast-options li {
+                border-left: 1px solid #02050E;
+                border-right: 1px solid #2b2d39;
+                float: left;
+                padding: 4px 20px;
+                height: 100%;
+                font-family: Arial, sans-serif;
+            }
+
+            #bluedevil-mast-options li#bluedevil-geo {
+                padding: 4px 0;
+            }
+
+            #bluedevil-mast-options li#bluedevil-geo a {
+                background: no-repeat scroll 10px 0 transparent;
+                padding: 3px 20px 3px 40px;
+                color: #A1A2A7;
+                text-decoration: none;
+                font-weight: normal;
+                font-family: Arial, sans-serif;
+            }
+
+            a:visited {
+                color: #745285;
+            }
+
+            #bluedevil-mast-options p {
+                display: inline;
+                font-family: Arial, sans-serif;
+                margin: 0px;
+                padding: 0px;
+                border: 0px;
+                outline: 0px;
+                font-size: inherit;
+                vertical-align: baseline;
+                margin-before: 1em;
+                margin-after: 1em;
+                margin-start: 0px;
+                margin-end: 0px;
+            }
+
+            #ibm-masthead ol, 
+            #ibm-masthead ul, 
+            #ibm-leadspace-head ol, 
+            #ibm-leadspace-head ul, 
+            #ibm-pcon ol, 
+            #ibm-pcon ul, 
+            #ibm-related-content ol, 
+            #ibm-related-content ul {
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+            }
+*/
+            #bluedevil-mast-options {
+                background: linear-gradient(to bottom, #131623, #1A1C27);
+                height: 15px;
+                float: left;
+                width: 100%;
+                color: #A1A2A7;
+            }
+
+            .k-menu {
+                width: 100%;
+                vertical-align: middle;
+                //background: linear-gradient(to bottom, #8181F7, #08088A, #8181F7);
+                //background: linear-gradient(to bottom, #CECEF6, #5882FA, #CECEF6);
+                background: -webkit-linear-gradient(top, #595C64, #1B1B1C);
+                height: 50px;
+                border-top: 1px solid #999;
+                border-bottom: 1px solid #666;
+            }
+
+            .k-menu .k-item {
+                min-width: 18%;
+                min-height: 90%;
+                vertical-align: middle;
+                color: #CCC;
+                display: block;
+            }
+
+            .k-menu .k-item, .k-widget.k-menu-horizontal>.k-item {
+              position: relative;
+              float: left;
+              border-style: solid;
+              border-width: 0 0px 0 0;
+              min-height: 100%;
+              vertical-align: middle;
+              zoom: 1;
+              //color: white;
+            }
+
+            .k-menu .k-menu-group>.k-item {
+                display: block;
+                border-width: 0;
+                color: black;
+            }
+
+            .k-menu .k-item>.k-link>.k-icon {
+                color: white;
+            }
+
+ /*           #siteLanguageMenu .k-item {
+                float: right;
+
+            }
+ */
+
         </style>
     </div>
 </body>

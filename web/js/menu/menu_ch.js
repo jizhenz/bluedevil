@@ -5,10 +5,11 @@
     prime.menu_chinese =
     [
         {
-            text: "主页"
+            text: "<strong>主页</strong>",
+            encoded: false
         },
         {
-            text: "服务",
+            text: "<strong>服务</strong>", encoded: false,
             items: [
                 { text: "咨询",
                   items: [
@@ -23,21 +24,21 @@
             ]
         },
         {
-            text: "解决方案",
+            text: "<strong>解决方案</strong>", encoded: false,
             items: [
                 { text: "智慧城市解决方案"},
                 { text: "智能交通解决方案"}
             ]
         },
         {
-            text: "案例",
+            text: "<strong>案例</strong>", encoded: false,
             items: [
                 { text: "案例1"},
                 { text: "案例2"}
             ]
         },
         {
-            text: "关于我们",
+            text: "<strong>关于我们</strong>", encoded: false,
             items: [
                 { text: "公司简介"},
                 { text: "我们的团队"},
@@ -48,4 +49,20 @@
         }
     ];
 
+    prime.menu_lang_chinese =
+    [
+        {
+            text: "欢迎浏览蓝魔软件"
+        },
+        {
+            text: "中文",
+            items: [
+                { text: "中文"},
+                { text: "English"}
+            ]
+        },
+        {
+            text: "", imageUrl: "img/logoBlueDevil.jpg"
+        }
+    ]
 }(window.prime = window.prime || {}, jQuery, kendo ));
