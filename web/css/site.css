@@ -1,0 +1,265 @@
+div {
+    display: block;
+    top: 0px;
+    left: 0px;
+}
+
+#main {
+    top: 0px;
+    left: 0px;                
+}
+
+#bluedevil-mast-options {
+    background: linear-gradient(to bottom, #131623, #1A1C27);
+    height: 15px;
+    float: left;
+    width: 100%;
+    color: #A1A2A7;
+}
+
+.k-menu {
+    width: 100%;
+    vertical-align: middle;
+    background: linear-gradient(to bottom, #595C64, #1B1B1C);
+    height: 50px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #666;
+}
+
+.k-menu .k-item {
+    min-width: 18%;
+    min-height: 90%;
+    vertical-align: middle;
+    color: #CCC;
+    display: block;
+}
+
+.k-menu .k-item, .k-widget.k-menu-horizontal>.k-item {
+  position: relative;
+  float: left;
+  border-style: solid;
+  border-width: 0 0px 0 0;
+  min-height: 100%;
+  vertical-align: middle;
+  zoom: 1;
+}
+
+.k-menu .k-menu-group>.k-item {
+    display: block;
+    border-width: 0;
+    color: black;
+}
+
+#ibm-footer-module {
+    border-top: 1px solid #666;
+    clear: both;
+    width: 100%;
+    float: left;
+    background: url(../img/footermod-bg.png) no-repeat center top, 
+        linear-gradient(to bottom, #474A50, #0F161A) repeat-x 0 0;
+    margin-bottom: -1px;
+    font-size: .7em;
+}
+
+div {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    vertical-align: baseline;
+}
+
+#ibm-footer-module h2 {
+    display: block;
+    font-size: 1em;
+    color: #FCB712;
+    margin: 0px;
+    padding: 16px 0 0;
+    border: 0px;
+    outline: 0px;
+    vertical-align: baseline;
+    margin-before: 0.83em;
+    margin-after: 0.83em;
+    margin-start: 0px;
+    margin-end: 0px;
+    font-weight: bold;
+}
+
+#ibm-footer-module .ibm-columns {
+    width: 990px;
+    padding: 0px;
+    margin: 0px auto;
+    clear: both;
+}
+
+#ibm-footer-module .ibm-columns .ibm-col-6-1 {
+    width: 140px;
+    float: left;
+    padding: 0px 10px;
+    min-height: 1px;
+}
+
+#ibm-footer-module h3 {
+    font-size: 1em;
+    color: #FCB712;
+    margin: 0px;
+    padding: 16px 0 0;
+    border: 0px;
+    outline: 0px;
+    vertical-align: baseline;
+    display: block;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0px;
+    margin-end: 0px;
+    font-weight: bold;
+}
+
+#ibm-footer-module ul {
+    line-height: 14px;
+    list-style: none;
+    padding: 0 0 2px 0;
+    margin: 0;
+    border: 0px;
+    outline: 0px;
+    font-size: inherit;
+    vertical-align: baseline;
+    display: block;
+    list-style-type: disc;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0px;
+    margin-end: 0px;
+    padding-start: 40px;
+}
+
+#ibm-footer-module li {
+    background: url(../img/bullets.gif) no-repeat -2px 2px;
+    margin: 4px 0;
+    padding: 0 0 0 10px;
+    font-family: Arial, sans-serif;
+    border: 0px;
+    outline: 0px;
+    font-size: inherit;
+    vertical-align: baseline;
+    display: list-item;
+    text-align: match-parent;
+}
+
+#ibm-footer-module a {
+    color: #a8a8a8;
+    display: block;
+    text-decoration: none;
+    text-shadow: 0 0 2px #000;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    font-size: inherit;
+    vertical-align: baseline;
+}
+
+a:visited {
+    color: #745285;
+}
+
+.ibm-columns:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+#ibm-footer {
+    background-color: #0F161A;
+    border-top: 1px solid #0F161A;
+    border-bottom: 1px solid #404040;
+    clear: both;
+    color: #CCC;
+    height: auto;
+    margin: 0;
+    padding-top: 15px;
+    position: relative;
+}
+
+#ibm-footer ul {
+    padding: 0px;
+    font-weight: normal;
+    font-size: .85em;
+    margin: 0 auto;
+    width: 960px;
+    height: 1%;
+    list-style-type: none;
+    border: 0px;
+    outline: 0px;
+    vertical-align: baseline;
+    display: block;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0px;
+    margin-end: 0px;
+    padding-start: 40px;
+}
+
+#ibm-footer ul li:first-child {
+    padding-left: 5px;
+}
+
+#ibm-footer li {
+    float: left;
+    padding: 0 10px 16px 14px;
+    overflow: inherit;
+    white-space: nowrap;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    border: 0px;
+    outline: 0px;
+    font-size: inherit;
+    vertical-align: baseline;
+    display: list-item;
+    text-align: match-parent;
+}
+
+#ibm-footer li a:link {
+    color: #7f7f7f;
+    text-decoration: none;
+}
+
+#ibm-footer li a {
+    font-size: .8em;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    vertical-align: baseline;
+}
+
+#ibm-footer:after {
+    font-size: 0;
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.ibm-access {
+    position: absolute;
+    left: -3000px;
+    width: 500px;
+}
+
+#ibm-footer-module a:hover {
+    color: #FFF;
+}
+
+#ibm-footer-module li:hover,
+#ibm-footer-module li.ibm-active {
+    background-position:-2px -98px;
+    color:#FFCF01
+}
