@@ -251,7 +251,7 @@
 }
 
 a[class^="ibm-share"],ul:hover a[class^="ibm-share"],ul:hover a[class^="ibm-share"]:hover,ul a[class^="ibm-share"]:focus {
-    background: url(/i/v17/icons/sprites-pt-all.png) no-repeat;
+    background: url(../img/sprites-pt-all.png) no-repeat;
 }
 
 a.ibm-share-email {
@@ -433,7 +433,7 @@ ul:hover a.ibm-share-active-youtube:hover {
 }
 
 a.ibm-share-blip,a.ibm-share-wykop {
-    background: url(/i/v17/icons/sprites-pt-pl.png) no-repeat;
+    background: url(../img/sprites-pt-pl.png) no-repeat;
 }
 
 a.ibm-share-blip {
@@ -445,49 +445,49 @@ a.ibm-share-wykop {
 }
 
 a.ibm-share-viadeo {
-    background: url(/i/v17/icons/sprites-pt-fr.png) no-repeat -52px 0;
+    background: url(../img/sprites-pt-fr.png) no-repeat -52px 0;
 }
 
 ul:hover a[class^="ibm-share"][class$="blip"] {
-    background: url(/i/v17/icons/sprites-pt-pl.png) no-repeat -26px 0;
+    background: url(../img/sprites-pt-pl.png) no-repeat -26px 0;
 }
 
 ul:hover a[class^="ibm-share"][class$="wykop"] {
-    background: url(/i/v17/icons/sprites-pt-pl.png) no-repeat -26px -26px;
+    background: url(../img/sprites-pt-pl.png) no-repeat -26px -26px;
 }
 
 ul:hover a[class^="ibm-share"][class$="viadeo"] {
-    background: url(/i/v17/icons/sprites-pt-fr.png) no-repeat -26px 0;
+    background: url(../img/sprites-pt-fr.png) no-repeat -26px 0;
 }
 
 ul:hover a[class^="ibm-share"][class$="blip"]:hover,ul a[class^="ibm-share"][class$="blip"]:focus {
-    background: url(/i/v17/icons/sprites-pt-pl.png) no-repeat -78px 0;
+    background: url(../img/sprites-pt-pl.png) no-repeat -78px 0;
 }
 
 ul:hover a[class^="ibm-share"][class$="wykop"]:hover,ul a[class^="ibm-share"][class$="wykop"]:focus {
-    background: url(/i/v17/icons/sprites-pt-pl.png) no-repeat -78px -26px;
+    background: url(../img/sprites-pt-pl.png) no-repeat -78px -26px;
 }
 
 ul:hover a[class^="ibm-share"][class$="viadeo"]:hover,
 ul a[class^="ibm-share"][class$="viadeo"]:focus {
-    background: url(/i/v17/icons/sprites-pt-fr.png) no-repeat -78px 0;
+    background: url(../img/sprites-pt-fr.png) no-repeat -78px 0;
 }
 
 ul:hover a[class$="active-blip"]:hover {
-    background: url(/i/v17/icons/sprites-pt-pl.png) no-repeat 0 0;
+    background: url(../img/sprites-pt-pl.png) no-repeat 0 0;
 }
 
 ul:hover a[class$="active-wykop"]:hover {
-    background: url(/i/v17/icons/sprites-pt-pl.png) no-repeat 0 -26px;
+    background: url(../img/sprites-pt-pl.png) no-repeat 0 -26px;
 }
 
 ul:hover a[class$="active-viadeo"]:hover {
-    background: url(/i/v17/icons/sprites-pt-fr.png) no-repeat 0 0;
+    background: url(../img/sprites-pt-fr.png) no-repeat 0 0;
 }
 
 a.ibm-share-yahoo-japan,a.ibm-share-hatena,a.ibm-share-livedoor,ul:hover a.ibm-share-yahoo-japan,ul:hover a.ibm-share-hatena,ul:hover a.ibm-share-livedoor,ul:hover a.ibm-share-yahoo-japan:hover,ul:hover a.ibm-share-hatena:hover,
 ul:hover a.ibm-share-livedoor:hover,ul a.ibm-share-yahoo-japan:focus,ul a.ibm-share-hatena:focus,ul a.ibm-share-livedoor:focus {
-    background: url(/i/v17/icons/sprites-pt-jp.png) no-repeat;
+    background: url(../img/sprites-pt-jp.png) no-repeat;
 }
 
 a.ibm-share-yahoo-japan {
@@ -541,7 +541,7 @@ ul:hover a.ibm-share-active-livedoor:hover {
 a.ibm-share-kaixn,a.ibm-share-renren,a.ibm-share-baidu,a.ibm-share-weibo,ul:hover a.ibm-share-kaixn,ul:hover a.ibm-share-renren,ul:hover a.ibm-share-baidu,
 ul:hover a.ibm-share-weibo,ul:hover a.ibm-share-kaixn:hover,ul:hover a.ibm-share-renren:hover,ul:hover a.ibm-share-baidu:hover,ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-kaixn:focus,ul a.ibm-share-renren:focus,
 ul a.ibm-share-baidu:focus,ul a.ibm-share-weibo:focus {
-    background: url(/i/v17/icons/sprites-pt-cn.png) no-repeat;
+    background: url(../img/sprites-pt-cn.png) no-repeat;
 }
 
 a.ibm-share-kaixn {
@@ -636,7 +636,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .ibm-share-this.ibm-alternate a[class^="ibm-share"] {
-    background: url(/i/v17/icons/ibm_sprite_share_16x16_OFF.png) no-repeat;
+    background: url(../img/ibm_sprite_share_16x16_OFF.png) no-repeat;
 }
 
 .ibm-share-this.ibm-alternate ul li a.ibm-share-digg {
@@ -680,7 +680,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .ibm-share-this.ibm-alternate ul a[class^="ibm-share"]:hover {
-    background: url(/i/v17/icons/ibm_sprite_share_16x16_HOVER.png) no-repeat;
+    background: url(../img/ibm_sprite_share_16x16_HOVER.png) no-repeat;
 }
 
 .ibm-share-this.ibm-alternate ul li a.ibm-share-digg:hover {
@@ -724,7 +724,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .ibm-share-this.ibm-alternate ul a[class^="ibm-share"]:active {
-    background: url(/i/v17/icons/ibm_sprite_share_16x16_CLICK.png) no-repeat;
+    background: url(../img/ibm_sprite_share_16x16_CLICK.png) no-repeat;
 }
 
 .ibm-share-this.ibm-alternate ul li a.ibm-share-digg:active {
@@ -768,7 +768,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .ibm-share-this.ibm-alternate-medium a[class^="ibm-share"] {
-    background: url(/i/v17/icons/ibm_sprite_share_24x24_OFF.png) no-repeat;
+    background: url(../img/ibm_sprite_share_24x24_OFF.png) no-repeat;
 }
 
 .ibm-share-this.ibm-alternate-medium ul li a.ibm-share-digg {
@@ -812,7 +812,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .ibm-share-this.ibm-alternate-medium ul a[class^="ibm-share"]:hover {
-    background: url(/i/v17/icons/ibm_sprite_share_24x24_HOVER.png) no-repeat;
+    background: url(../img/ibm_sprite_share_24x24_HOVER.png) no-repeat;
 }
 
 .ibm-share-this.ibm-alternate-medium ul li a.ibm-share-digg:hover {
@@ -856,7 +856,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .ibm-share-this.ibm-alternate-medium ul a[class^="ibm-share"]:active {
-    background: url(/i/v17/icons/ibm_sprite_share_24x24_CLICK.png) no-repeat;
+    background: url(../img/ibm_sprite_share_24x24_CLICK.png) no-repeat;
 }
 
 .ibm-share-this.ibm-alternate-medium ul li a.ibm-share-digg:active {
@@ -900,7 +900,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .ibm-share-this.ibm-alternate-large a[class^="ibm-share"] {
-    background: url(/i/v17/icons/ibm_sprite_share_32x32_OFF.png) no-repeat;
+    background: url(../img/ibm_sprite_share_32x32_OFF.png) no-repeat;
 }
 
 .ibm-share-this.ibm-alternate-large ul li a.ibm-share-digg {
@@ -944,7 +944,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .ibm-share-this.ibm-alternate-large ul a[class^="ibm-share"]:hover {
-    background: url(/i/v17/icons/ibm_sprite_share_32x32_HOVER.png) no-repeat;
+    background: url(../img/ibm_sprite_share_32x32_HOVER.png) no-repeat;
 }
 
 .ibm-share-this.ibm-alternate-large ul li a.ibm-share-digg:hover {
@@ -988,7 +988,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .ibm-share-this.ibm-alternate-large ul a[class^="ibm-share"]:active {
-    background: url(/i/v17/icons/ibm_sprite_share_32x32_CLICK.png) no-repeat;
+    background: url(../img/ibm_sprite_share_32x32_CLICK.png) no-repeat;
 }
 
 .ibm-share-this.ibm-alternate-large ul li a.ibm-share-digg:active {
@@ -1033,7 +1033,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 
 .dj_ie6 a.ibm-share-email,.dj_ie6 a.ibm-share-print,.dj_ie6 a.ibm-share-delicious,.dj_ie6 a.ibm-share-digg,.dj_ie6 a.ibm-share-facebook,.dj_ie6 a.ibm-share-linkedin,.dj_ie6 a.ibm-share-twitter,.dj_ie6 a.ibm-share-dogear,
 .dj_ie6 a.ibm-share-stumble,.dj_ie6 a.ibm-share-googleplus,.dj_ie6 a.ibm-share-facebook {
-    background: url(/i/v17/icons/sprites-pt-all.png) no-repeat;
+    background: url(../img/sprites-pt-all.png) no-repeat;
 }
 
 .dj_ie6 a.ibm-share-delicious {
@@ -1081,7 +1081,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .dj_ie6 a.ibm-share-yahoo-japan,.dj_ie6 a.ibm-share-hatena,.dj_ie6 a.ibm-share-livedoor {
-    background: url(/i/v17/icons/sprites-pt-jp.png) no-repeat -26px 0;
+    background: url(../img/sprites-pt-jp.png) no-repeat -26px 0;
 }
 
 .dj_ie6 a.ibm-share-hatena {
@@ -1093,7 +1093,7 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .dj_ie6 a.ibm-share-blip,.dj_ie6 a.ibm-share-wykop {
-    background: url(/i/v17/icons/sprites-pt-pl.png) no-repeat;
+    background: url(../img/sprites-pt-pl.png) no-repeat;
 }
 
 .dj_ie6 a.ibm-share-blip {
@@ -1105,12 +1105,12 @@ ul:hover a.ibm-share-weibo:hover,ul a.ibm-share-weibo:focus {
 }
 
 .dj_ie6 a.ibm-share-viadeo {
-    background: url(/i/v17/icons/sprites-pt-fr.png) no-repeat -26px 0;
+    background: url(../img/sprites-pt-fr.png) no-repeat -26px 0;
 }
 
 .dj_ie6 a.ibm-share-kaixn,
 .dj_ie6 a.ibm-share-renren,.dj_ie6 a.ibm-share-baidu,.dj_ie6 a.ibm-share-weibo {
-    background: url(/i/v17/icons/sprites-pt-cn.gif) no-repeat;
+    background: url(../img/sprites-pt-cn.gif) no-repeat;
 }
 
 .dj_ie6 a.ibm-share-renren {
@@ -1302,7 +1302,7 @@ ul.ibm-social-visit-links li a.ibm-visit-tumblr:active {
     float: left;
     width: 13px;
     height: 13px;
-    background: url("/i/v17/icons/ibm_sprite_ratings_blue_ON.png") no-repeat;
+    background: url("../img/ibm_sprite_ratings_blue_ON.png") no-repeat;
     display: block;
     clear: none;
     margin: 0;
@@ -1692,13 +1692,13 @@ ul.ibm-social-visit-links li a.ibm-visit-tumblr:active {
 }
 
 #ibm-mast-options li#ibm-geo a {
-    background: url("/i/v17/icons/country-icons-sprite.png") no-repeat scroll 10px 0 transparent;
+    background: url("../img/country-icons-sprite.png") no-repeat scroll 10px 0 transparent;
     padding: 3px 20px 3px 40px;
     _background: none;
 }
 
 #ibm-mast-options li#ibm-geo a.ibm-back-country,#ibm-mast-options li#ibm-geo a.ibm-back-country:focus,#ibm-mast-options li#ibm-geo:hover a.ibm-back-country {
-    background: url("/i/v17/icons/ibm_sprite_inter_country_nav.png") no-repeat scroll 4px 4px transparent;
+    background: url("../img/ibm_sprite_inter_country_nav.png") no-repeat scroll 4px 4px transparent;
     padding-left: 20px;
     padding-top: 4px;
     _background: none;
