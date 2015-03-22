@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta content="en-US" scheme="rfc1766" name="DC.Language" />
     <title>Blue Devil Software</title>
     <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.common.min.css" />
     <link rel="stylesheet" href="http://cdn.kendostatic.com/2014.3.1411/styles/kendo.default.min.css" />
@@ -11,12 +10,13 @@
 
     <script src="http://cdn.kendostatic.com/2014.3.1411/js/jquery.min.js"></script>
     <script src="http://cdn.kendostatic.com/2014.3.1411/js/kendo.all.min.js"></script>
-    
+
     <link href="css/bd.css" rel="stylesheet" type="text/css" />
+
     <script src="js/menu/menu_ch.js"></script>
-    <!-- -->
 
     <script type="text/javascript">
+
 
         $(document).ready(function() {
             $("#siteMenu").kendoMenu({
@@ -41,77 +41,98 @@
                     </table>
                 </td>
                 <td id="mainMiddle" width="95%" style="vertical-align:top;">
-                    <div id="bd-masthead" style="left: 0px;">
-                        <div id="bd-mast-options">
-                            <ul>
-                                <li id="bd-geo">
-                                    <a href="#" tabindex="0">中国</a>
-                                </li>
-                                <li id="bd-sso">
-                                    <span widgetid="bdweb_dynnav_greeting_0">
-                                        <p id="bd-welcome-msg">欢迎访问蓝魔软件</p>
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="bd-universal-nav" style="left: 0px;">
-                            <ul id="siteMenu"></ul>
-                        </div>
-                    </div>
-                    <!-- MASTHEAD_END -->
-                    <!-- CONTENT_BEGIN -->
-                    <div style="min-height:200px;">
-                    </div>
-                    <!-- CONTENT_END -->
-                    <!-- FOOTER_BEGIN -->
-                    <div id="ibm-footer-module" style="min-height: 150px;" class="ibm-active" aria-labelledby="ibm-footer-res" role="complementary">
-                        <h2 id="ibm-footer-res" class="ibm-access">Resources</h2>
-                        <div class="ibm-columns">
-                            <div class="ibm-col-6-1" aria-label="Connect with us">
-                                <h3>关于我们</h3>
-                                <ul>
-                                    <li><a href="index.html" tabindex="0">公司简介</a></li>
-                                    <li><a href="index.html" tabindex="0">我们的团队</a></li>
-                                    <li><a href="index.html" tabindex="0">公司理念</a></li>
-                                    <li><a href="index.html" tabindex="0">业务简介</a></li>
-                                </ul>
-                            </div>
-                            <div class="ibm-col-6-1" aria-label="Key topics">
-                                <h3>服务</h3>
-                                <ul>
-                                    <li><a href="index.html" tabindex="0">IT 战略咨询</a></li>
-                                    <li><a href="index.html" tabindex="0">企业架构咨询</a></li>
-                                    <li><a href="index.html" tabindex="0">云架构咨询</a></li>
-                                    <li><a href="index.html" tabindex="0">APP定制与开发</a></li>
-                                    <li><a href="index.html" tabindex="0">大数据分析</a></li>
-                                    <li><a href="index.html" tabindex="0">生物信息与生物医学图像</a></li>
-                                </ul>
-                            </div>
-                            <div class="ibm-col-6-1" aria-label="Information for">
-                                <h3>解决方案</h3>
-                                <ul>
-                                    <li><a href="index.html" tabindex="0">智慧城市解决方案</a></li>
-                                    <li><a href="index.html" tabindex="0">智能交通解决方案</a></li>
-                                </ul>
-                            </div>
-                            <div class="ibm-col-6-1" aria-label="Try &amp;amp; buy">
-                                <h3>案例</h3>
-                                <ul>
-                                    <li><a href="index.html" tabindex="0">案例1</a></li>
-                                    <li><a href="index.html" tabindex="0">案例2</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="ibm-footer" role="contentinfo" aria-label="Footer">
-                        <h2 class="ibm-access">Footer links</h2>
-                        <ul>
-                            <li><a href="index.html">联系我们</a></li>
-                            <li><a href="index.html">隐私保护</a></li>
-                            <li><a href="index.html">使用条款</a></li>
-                            <li><img title="Feedback" src="img/oo_icon.gif"><a href="#">&nbsp;意见反馈</a></li>
-                        </ul>
-                    </div>
+                    <table id="site" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <!-- MASTHEAD_BEGIN -->
+                        <tr>
+                            <td>
+                                <div id="bd-masthead" style="left: 0px;">
+                                    <div id="bd-mast-options">
+                                        <ul>
+                                            <li id="bd-geo">
+                                                <a href="#" tabindex="0">中国</a>
+                                            </li>
+                                            <li id="bd-sso">
+                                                <span widgetid="bdweb_dynnav_greeting_0">
+                                                    <p id="bd-welcome-msg">欢迎访问蓝魔软件</p>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul id="siteMenu"></ul>
+                            </td>
+                        </tr>
+                        <!-- MASTHEAD_END -->
+                        <!-- CONTENT_BEGIN -->
+                        <tr>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <!-- CONTENT_END -->
+                        <!-- FOOTER_BEGIN -->
+                        <tr>
+                            <td>
+                                <div id="ibm-footer-module" style="min-height: 150px;" class="ibm-active" aria-labelledby="ibm-footer-res" role="complementary">
+                                    <h2 id="ibm-footer-res" class="ibm-access">Resources</h2>
+                                    <div class="ibm-columns">
+                                        <div class="ibm-col-6-1" aria-label="Connect with us">
+                                            <h3>关于我们</h3>
+                                            <ul>
+                                                <li><a href="index.html" tabindex="0">公司简介</a></li>
+                                                <li><a href="index.html" tabindex="0">我们的团队</a></li>
+                                                <li><a href="index.html" tabindex="0">公司理念</a></li>
+                                                <li><a href="index.html" tabindex="0">业务简介</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="ibm-col-6-1" aria-label="Key topics">
+                                            <h3>服务</h3>
+                                            <ul>
+                                                <li><a href="index.html" tabindex="0">IT 战略咨询</a></li>
+                                                <li><a href="index.html" tabindex="0">企业架构咨询</a></li>
+                                                <li><a href="index.html" tabindex="0">云架构咨询</a></li>
+                                                <li><a href="index.html" tabindex="0">APP定制与开发</a></li>
+                                                <li><a href="index.html" tabindex="0">大数据分析</a></li>
+                                                <li><a href="index.html" tabindex="0">生物信息与生物医学图像</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="ibm-col-6-1" aria-label="Information for">
+                                            <h3>解决方案</h3>
+                                            <ul>
+                                                <li><a href="index.html" tabindex="0">智慧城市解决方案</a></li>
+                                                <li><a href="index.html" tabindex="0">智能交通解决方案</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="ibm-col-6-1" aria-label="Try &amp;amp; buy">
+                                            <h3>案例</h3>
+                                            <ul>
+                                                <li><a href="index.html" tabindex="0">案例1</a></li>
+                                                <li><a href="index.html" tabindex="0">案例2</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id="ibm-footer" role="contentinfo" aria-label="Footer">
+                                    <h2 class="ibm-access">Footer links</h2>
+                                    <ul>
+                                        <li><a href="index.html">联系我们</a></li>
+                                        <li><a href="index.html">隐私保护</a></li>
+                                        <li><a href="index.html">使用条款</a></li>
+                                        <li><img title="Feedback" src="img/oo_icon.gif"><a href="#">&nbsp;意见反馈</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- FOOTER_END -->
+                    </table>
                 </td>
                 <td id="mainRight" width="0%"></td>
             </tr>

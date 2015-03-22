@@ -1,0 +1,411 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"blu",
+				"Blue"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"lo",
+				"logo_chinese"
+			],
+			[
+				"he",
+				"height	Attr"
+			],
+			[
+				"cel",
+				"cellspacing	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "web/index.html",
+			"settings":
+			{
+				"buffer_size": 9103,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/chrome.sublime-build",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/web",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/web/css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/web/js"
+	],
+	"file_history":
+	[
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/web/index.bck.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/web/bluedevil.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/web/css/wsb_index.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/web/css/wsb.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/web/css/bd.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/web/ibm.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/zSampleWebSites/ibm-us-en/ibm_us_en/www.ibm.com/mx/services/bcs/scm/solutions0cec.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/zSampleWebSites/ibm-us-en/ibm_us_en/www.ibm.com/mobilefirst/us/en/byod-solutions.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/zSampleWebSites/ibm-us-en/ibm_us_en/www.ibm.com/social-business/au/en/customers/boston-childrens-hospital.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/zSampleWebSites/ibm-us-en/ibm_us_en/www.ibm.com/ibm/lv/lv/about_lv.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil/zSampleWebSites/ibm-us-en/ibm_us_en/www.ibm.com/midmarket/us/en/article_Social_Business2_1209d704.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/KendoUI/telerik.kendoui.2014.3.1119.core/src/styles/web/kendo.materialblack.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/css/site.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/css/kendo.common.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/index.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/bluedevil.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/css/bd.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/js/dojo/www.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/js/ecm/homepage-custom.js",
+		"/C/Users/jizhen/Documents/Downloaded Websites/ibm/www.ibm.com/us/en/index.html",
+		"/C/Users/jizhen/Documents/Downloaded Websites/ibm/1.www.s81c.com/common/js/dojo/www.js",
+		"/C/Users/jizhen/Documents/Downloaded Websites/ibm/1.www.s81c.com/common/v17/css/www_2.css",
+		"/C/Users/jizhen/Documents/Downloaded Websites/ibm/1.www.s81c.com/common/v17/css/homepage.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/ibm/www.ibm.com/us/en/index.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/ibm/ibm_us_en/abs.twimg.com/c/swift/en/init.20993b0fcbcd7a32802ec4cfb512cb64de4614df.js",
+		"/C/Users/jizhen/Documents/Downloaded Websites/ibm/1.www.s81c.com/common/v17/css/www_1.css",
+		"/C/Users/jizhen/Documents/Downloaded Websites/ibm/1.www.s81c.com/common/v17/css/www.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/css/homepage.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/css/ibm_www.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/css/ibm_www_1.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/css/ibm_www_2.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/js/menu/menu_ch.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/ibm.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/ibm/index.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/js/bluedevil/www.js",
+		"/C/Users/jizhen/AppData/Roaming/Sublime Text 3/Packages/User/ie.sublime-build",
+		"/C/Users/jizhen/AppData/Roaming/Sublime Text 3/Packages/User/chrome.sublime-build",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/microsoft.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/js/menu/menu_en.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/bluedevil-svn/trunk/web/js/logo/logo_ch.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_WuHan/ember/discourse-master/vendor/assets/javascripts/select2.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendoui_test/index_bck.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendoui_test/index.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendo-ui/aeroviewr/index.html",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendo-ui/content/shared/js/console.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendo-ui/content/shared/js/example-datasources.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendo-ui/content/shared/js/kendo-dojo.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendo-ui/content/shared/js/prettify.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendo-ui/content/shared/js/web-examples.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendo-ui/content/spa/aeroviewr/css/aeroviewr.css",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendo-ui/content/spa/aeroviewr/js/500px.js",
+		"/C/Users/jizhen/Documents/_Jizhen/_Projects/sublime_projects/kendo-ui/content/spa/aeroviewr/js/aeroviewr.js"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"C:\\Users\\jizhen\\Documents\\_Jizhen\\_Projects\\KendoUI\\telerik.kendoui.2014.3.1119.core\\styles",
+			"C:\\Users\\jizhen\\Documents\\_Jizhen\\_Projects\\KendoUI\\telerik.kendoui.2014.3.1119.core\\src\\styles",
+			"C:\\Users\\jizhen\\Documents\\_Jizhen\\_Projects\\KendoUI\\telerik.kendoui.2014.3.1119.core\\styles",
+			"C:\\Users\\jizhen\\Documents\\_Jizhen\\_Projects\\KendoUI\\telerik.kendoui.2014.3.1119.core\\src\\styles",
+			"C:\\Users\\jizhen\\Documents\\_Jizhen\\_Projects\\KendoUI\\telerik.kendoui.2014.3.1119.core\\src\\styles\\web",
+			"C:\\Users\\jizhen\\Documents\\_Jizhen\\_Projects\\bluedevil-svn\\trunk\\web",
+			"C:\\Users\\jizhen\\Documents\\Downloaded Websites\\ibm"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" alt=\"Harley Davidson Sportster\"",
+			"wsb-element-134190983",
+			"wsb-canvas-page",
+			"wsb-canvas-template-container",
+			"wsb-canvas-page",
+			"customStyle",
+			"px",
+			"35px",
+			"33",
+			"50",
+			"trans",
+			"10005",
+			"k-state-border-down\nk-state-border-down",
+			"k-state-border-down",
+			"z-index: 110;",
+			"z-index:110",
+			"z-index: 110",
+			"z-index",
+			"z-index\nz-index",
+			"k-menu.*\\.k-state-hover.*",
+			".*\\.k-state-hover.*",
+			"k-item.+\\.k-state-hover.*",
+			"k-item.*\\.k-state-hover.*",
+			"k-item.+k-state-hover.*",
+			"k-item(.*)k-state-hover",
+			"k-item.*k-state-hover.*",
+			"k-item(.)*k-state-default(.)*k-state-hover(.)*",
+			"k-item(\\.)*k-state-default(\\.)*k-state-hover(\\.)*",
+			"k-item.*k-state-default.*k-state-hover.*",
+			"k-item(.)*k-state-default(.)*k-state-hover(.)*",
+			"k-item.*k-state-default.*k-state-hover.*",
+			"k-item\\.k-state-default\\.*\\.k-state-hover",
+			"k-item.*k-state-hover",
+			"k-state-hover",
+			"l-state-hover",
+			"div {",
+			"ibm",
+			"any-link",
+			"#bd-mast-options a",
+			"#bd-mast-options li",
+			"#bd-mast-options li#bd-geo",
+			"#ibm-masthead ol",
+			"#bd-masthead ol",
+			"#bd-mast-options ul",
+			"#bd-mast-options:after",
+			"li#bd",
+			"bd-mast-options:after",
+			"ibm",
+			"#ibm-masthead",
+			"ibm-masthead",
+			"ibm",
+			"ibmweb.homepage",
+			"DC.Language",
+			"libs.coremetrics.com/eluminate.js",
+			"../libs.coremetrics.com/eluminate.js",
+			"//libs.coremetrics.com/eluminate.js",
+			"dojo",
+			"perscontent-*.js",
+			"perscontent-usen.js",
+			"index.html",
+			"usen-utf8.js",
+			"index.html",
+			"../../../../",
+			"eluminate.js",
+			"html.js",
+			"eluminate.js",
+			"dojo.io.script.jsonp_",
+			"callback=dojo.io.script.jsonp_dojoIoScript1._jsonpCallback",
+			"/i/v17/footermod-bg.png",
+			"related-bg.png",
+			"footermod-bg.png",
+			"related-bg.png",
+			"box_gradient_rm.png",
+			"box_gradient_lm.png",
+			"ibm_sprite_media_blue_ON.png",
+			"search.png",
+			"/i/v17/",
+			"ibm-logo-anim-sprite.png",
+			"country-icons-sprite.png",
+			"bg-loader.gif",
+			"www_2.css",
+			"C:/common/v17/css/www_2.css",
+			"file:///C:/common/v17/css/www_2.css",
+			"/i/v17/icons",
+			"@import",
+			"/i/v17",
+			"-webkit-",
+			"%;\n",
+			"\"/>\n",
+			"-webkit-",
+			"-webkit-linear-gradient",
+			"Industries & solutions",
+			"industries",
+			"kendo-ui",
+			"../",
+			"/kendo-ui/content",
+			"example",
+			".js"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"2000",
+			"bd",
+			"js/libs.coremetrics.com/eluminate.js",
+			"libs.coremetrics.com/eluminate.js",
+			"../../../",
+			"../../../i/v17/footermod-bg.png",
+			"../img",
+			"",
+			"../content/",
+			".."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "web/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9103,
+								9103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3393.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 177.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "bd.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
